@@ -1,13 +1,116 @@
-@media (max-width: 1200px)
-.promo {
-    background: url(../../img/bg/bg.jpg) center (center / cover ) no-repeat;
+@media (max-width: 1200px) {}
+
+
+@media (max-width: 991px) {
+    .promo {
+        background: url(../../img/bg/bg.jpg) no-repeat center center;
+        background-size: cover;
+        padding-right: 25px;
+        padding-left: 25px;
+
+    }
 }
- 
 
+@media (max-width: 935px) {
+    .advantage__item {
+        margin-left: 45px;
+    }
+}
 
-// @media (max-width: 991px)
+@media (max-width: 855px) {
+    .body {
+        background-color: #f6f6f6;
+    }
+    .promo__wrapper {
+        align-items: center;
+    }
+    .advantage {
+        margin-left: 100px;
 
-// @media (max-width: 767px)
+        &__title {
+            margin-left: -80px;
+        }
 
+        &__item {
+            min-height: 221px;
+            width: 532px;
+            display: flex;
+            justify-content: center;
+            margin-left: 50px;
 
-// @media (max-width: 575px)
+            &_header {
+                margin-top: 10px;
+            }
+
+            &_subheader {
+                margin-top: 5px;
+                border-bottom: 1px dotted $main-color;
+            }
+        }
+    }
+}
+
+@media (max-width: 767px) {
+    body {
+        background-color: #f6f6f6;
+    }
+
+    .promo {
+        background-size: contain;
+        background: url(../../img/bg/bg.jpg) no-repeat center center;
+        background-attachment: fixed;
+        padding-left: 25px;
+        padding-right: 25px;
+
+        &__wrapper {
+            align-items: center;
+        }
+
+    }
+
+    .advantage {
+        margin-left: 100px;
+
+        &__title {
+            margin-left: -80px;
+        }
+
+        &__item {
+            min-height: 221px;
+            width: 532px;
+            display: flex;
+            justify-content: center;
+            margin-left: 20px;
+
+            &_header {
+                margin-top: 10px;
+            }
+
+            &_subheader {
+                margin-top: 5px;
+                border-bottom: 1px dotted $main-color;
+            }
+        }
+    }
+
+}
+
+@media (max-width: 575px) {
+    .header__official {
+        font-size: 11px;
+    }
+    .promo {
+        &__header {
+            font-size: 41px;
+        }
+
+        &__subheader {
+            font-size: 23px;
+        }
+    }
+    .advantage {
+        &__item {
+            margin-left: -75px;
+        }
+    }
+}
