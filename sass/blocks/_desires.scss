@@ -1,0 +1,36 @@
+.desires {
+    min-height: 876px;
+    margin-bottom: 70px;
+    &__items {
+        display: inline-block;
+
+    }
+    &__item {
+        margin-top: 70px;
+        margin-bottom: 100px;
+        min-height: 189px;
+        img {
+            float: left;
+            
+        }
+        &_content {
+            margin-left: 230px;
+            width: 650px;
+        }
+        &_title {
+            color:#0D0D0D;
+            font-size:18px;
+        }
+        &_subtitle {
+            color:#646464;
+            font-size:14px;
+            text-align:left;
+        }
+        &_text {
+            color:#0D0D0D;
+            font-size:16px;
+            text-transform: none;
+        }
+    }
+    
+}
