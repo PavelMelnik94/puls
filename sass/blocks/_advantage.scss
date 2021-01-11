@@ -1,17 +1,19 @@
 .advantage {
     min-height: 471px;
     padding: 71px 0 95px 0;
-    background-color:#F6F6F6;
+    background-color: #F6F6F6;
+
     &__title {
         display: block;
         margin: 0 auto;
-        color:#0D0D0D;
-        font-size:30px;
+        color: #0D0D0D;
+        font-size: 30px;
         text-align: center;
         font-weight: 600;
     }
+
     &__item {
-        margin-top:65px;
+        margin-top: 65px;
         margin-left: 65px;
         display: inline-flex;
         flex-direction: column;
@@ -20,24 +22,38 @@
         min-height: 231px;
         width: 239px;
         text-align: center;
+
         &_header {
             margin-top: 65px;
-            font-size:18px;
-            color:#0D0D0D;
+            font-size: 18px;
+            color: #0D0D0D;
             font-weight: 600;
         }
+
         &_subheader {
             margin-top: 25px;
-            font-size:14px;
-            color:#0D0D0D;
+            font-size: 14px;
+            color: #0D0D0D;
         }
-            a {
-                color: $main-color;
-                font-weight: 400;
-                text-decoration: none;
+
+        a {
+            color: $main-color;
+            font-weight: 400;
+            text-decoration: none;
+        }
+
+        a:hover {
+            font-weight: 600;
+        }
+
+    }
+
+    &__icon {
+        &_animated {
+            animation: heartbeat 1.5s ease infinite;
+            &:hover {
+                animation-play-state: paused;
             }
-            a:hover {
-                font-weight: 600;
-            }
+        }
     }
 }

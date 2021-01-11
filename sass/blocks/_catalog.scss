@@ -136,7 +136,7 @@
         &__content {
             width: 50%;
             margin-right: 0px;
-            transform: translateX(-100%);
+            transform: translateX(-120%);
             transition: 0.5s all;
             padding-left: 0;
             margin-bottom: 0;
@@ -165,12 +165,13 @@
             }
 
             li {
+                margin-left: -40px;
                 position: relative;
                 color: #555555;
                 font-size: 14px;
                 font-weight: 300;
                 margin-bottom: 20px;
-
+                list-style-type: none;
                 &:before {
                     content: '';
                     position: absolute;
@@ -187,7 +188,7 @@
 
         &__back {
             position: absolute;
-            bottom: 0;
+            bottom: -5px;
             left: 50%;
             transform: translateX(calc(50% - 60px));
             display: block;

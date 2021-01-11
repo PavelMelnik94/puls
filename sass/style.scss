@@ -1,4 +1,6 @@
 @import 'base/variables';
+@import 'base/media';
+@import 'base/animation';
 
 * {
     font-family: 'Maseo Sans Cyrl', sans-serif;
@@ -22,4 +24,3 @@
 @import 'blocks/footer';
 @import 'blocks/modal';
 @import 'blocks/pageup';
-@import 'base/media';
