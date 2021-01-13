@@ -16,7 +16,7 @@ $mail->SMTPAuth = true;                               // Enable SMTP authenticat
 $mail->Username = 'recyclesordie94@gmail.com';                 // Наш логин
 $mail->Password = '666qazqaz666';                           // Наш пароль от ящика
 $mail->SMTPSecure = 'ssl';                            // Enable TLS encryption, `ssl` also accepted
-$mail->Port = 465;                                    // TCP port to connect to
+$mail->Port = 442;                                    // TCP port to connect to
 
 $mail->setFrom('', 'Pulse');   // От кого письмо
 $mail->addAddress('recyclesordie94@gmail.com');     // Add a recipient

@@ -2,6 +2,12 @@
 @import 'base/media';
 @import 'base/animation';
 
+
+@import 'libs/animate.min';
+@import 'libs/bootstrap-reboot.min';
+@import 'libs/font';
+@import 'libs/slick';
+
 * {
     font-family: 'Maseo Sans Cyrl', sans-serif;
 }
