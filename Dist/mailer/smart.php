@@ -1,5 +1,4 @@
 <?php
-
 $name = $_POST['name'];
 $phone = $_POST['phone'];
 $email = $_POST['email'];
@@ -16,7 +15,7 @@ $mail->SMTPAuth = true;                               // Enable SMTP authenticat
 $mail->Username = 'recyclesordie94@gmail.com';                 // Наш логин
 $mail->Password = '**********';                           // Наш пароль от ящика
 $mail->SMTPSecure = 'ssl';                            // Enable TLS encryption, `ssl` also accepted
-$mail->Port = 422;                                    // TCP port to connect to
+$mail->Port = 465;                                    // TCP port to connect to
 
 $mail->setFrom('recyclesordie94@gmail.com', 'Pulse');   // От кого письмо
 $mail->addAddress('recyclesordie94@gmail.com');     // Add a recipient
